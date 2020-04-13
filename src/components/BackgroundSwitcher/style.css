@@ -1,0 +1,15 @@
+.BackgroundSwitcher {
+  height: 100%;
+  overflow: auto;
+  background-image: url(./bg1.jpg);
+  background-attachment: local;
+  background-size: cover;
+}
+
+.BackgroundSwitcher.long {
+  background-image: url(./bg2.jpg);
+}
+
+.BackgroundSwitcher.short {
+  background-image: url(./bg3.jpg);
+}
